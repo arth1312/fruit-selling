@@ -1,0 +1,50 @@
+/* SM */
+
+@media(min-width:576px){
+    
+}
+
+/* MD */
+
+@media(min-width:768px){
+    
+}
+
+/* LG */
+
+@media(min-width:992px){
+    /* HEADER */
+    header{
+        background-color: transparent;
+    }
+
+    /* CAROUSEL */
+    .carousel-control-prev {
+        top: 50%!important;
+        left: 40px!important;
+        transform: translateY(-50%);
+    }
+    
+    .carousel-control-next {
+        top: 50%!important;
+        right: 40px!important;
+        transform: translateY(-50%);
+    }
+
+    /* DEAL */
+    .deal-contant{
+        margin-left: 200px;
+    }
+}
+
+/* XL */
+
+@media(min-width:1200px){
+    
+}
+
+/* XXL */
+
+@media(min-width:1400px){
+    
+}
